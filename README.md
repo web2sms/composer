@@ -16,7 +16,7 @@ PHP 5.7.0 - 8.0.8
 You can install the library via [Composer](http://getcomposer.org/). Run the following command:
 
 ```
-    composer require web2sms/sms
+    composer require 
 ```
 
 ### URLs
