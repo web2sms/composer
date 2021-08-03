@@ -41,10 +41,8 @@ You can install the library via [Composer](http://getcomposer.org/). Run the fol
     ```php
         ...
         
-        require_once('lib/sendSMS.php');
-        use Web2sms\sendSMS;
-
-        $sendSMS = new sendSMS();
+        use Web2sms\Sms\SendSMS;
+        $sendSMS = new SendSMS();
 
         $sender->accountType = 'prepaid';                                 // postpaid | prepaid          // Optional
         $sendSMS->apiKey     = 'API_KEY_FROM_THE_PLATFORM';               // ApiKey from Platform        // Mandatory

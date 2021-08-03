@@ -1,8 +1,8 @@
 <?php
-require_once('lib/sendSMS.php');
-use Web2sms\sendSMS;
+require_once realpath('vendor/autoload.php');
+use Web2sms\Sms\SendSMS;
 
-$sendSMS = new sendSMS();
+$sendSMS = new SendSMS();
 
 $sendSMS->accountType = 'prepaid';                                                  // postpaid | prepaid
 
@@ -16,7 +16,7 @@ $sendSMS->secretKey  = 'YOUR_SECRET_KEY_HERE_._YOU_HAVE_IT_FROM_WEB2SMS_PLATFORM
 $sendSMS->messages[]  = [
                     'sender'            => null,                                    // who send the SMS             // Optional
                     'recipient'         => '07XXXXXXXX',                            // who receive the SMS          // Mandatory
-                    'body'              => 'This is a simple SMS - '.rand(0,1000),  // The actual text of SMS       // Mandatory
+                    'body'              => 'Test SMS from WEB2SMS- '.rand(0,1000),  // The actual text of SMS       // Mandatory
                     'scheduleDatetime'  => null,                                    // Date & Time to send SMS      // Optional
                     'validityDatetime'  => null,                                    // Date & Time of expire SMS    // Optional
                     'callbackUrl'       => 'https://yourdomain.ro/web2sms/',        // Call back                    // Optional    
