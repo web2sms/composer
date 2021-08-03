@@ -1,5 +1,5 @@
 <?php
-namespace Web2sms;
+namespace Web2sms\Sms;
 
 abstract class Web2sms {    
     const SMS_PLATFORM_URL            = "https://www.web2sms.ro";        // Mandatory 

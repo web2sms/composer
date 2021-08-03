@@ -1,6 +1,6 @@
 <?php
-namespace Web2sms;
-require_once('lib/web2sms.php');
+namespace Web2sms\Sms;
+require_once('Web2sms.php');
 
 class SendSMS extends Web2sms{
     public function __construct(){
@@ -9,8 +9,6 @@ class SendSMS extends Web2sms{
 
     public function setRequest(){
         $this->verifyRequest();
-        // foreach message and make full json / array
-        // then let's sendSMS send the SMS one by one
     }
 
     public function sendSMS(){

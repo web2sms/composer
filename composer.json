@@ -9,10 +9,14 @@
             "email": "contact@web2sms.ro"
         }
     ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5",
+        "ext-dom": "*"
+    },
     "autoload": {
         "psr-4": {
-            "Web2sms\\": "src/"
+            "Web2sms\\Sms\\": "src/"
         }
-    },
-    "require": {}
+    }
 }
