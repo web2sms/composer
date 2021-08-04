@@ -116,7 +116,7 @@ You can install the library via [Composer](http://getcomposer.org/). Run the fol
 
 
 ### Techincal support
-    mail : support@web2sms.ro
+mail : support@web2sms.ro
 
 
 ##### Resources
