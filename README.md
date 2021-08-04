@@ -8,6 +8,8 @@
 The WEB2SMS PHP library provides easy access to the send SMS via WEB2SMS API from any
 applications written in the PHP language.
 
+For more details, please do not hesitate to contact us - contact@web2sms.ro
+
 ## Compatibility
 PHP 5.7.0 - 8.0.8
 
@@ -113,15 +115,9 @@ You can install the library via [Composer](http://getcomposer.org/). Run the fol
 * **268435465** : Internal web2SMS error while scheduling a SMS
 
 
-### When / Why send SMS
-Now days sending SMS to the customers helping any business to increase customers retention.
+### Techincal support
+    mail : support@web2sms.ro
 
-Also, can can benefit of sending SMS in other scenarios as well
-For example :
-    * For phone verification of your app / site members
-    * To 2-Step verification
-    * To notify / reminding of an event
-    * Etc 
 
 ##### Resources
 ###### ( <a href="https://sites.google.com/a/netopia-system.com/wiki-web2sms/api-web2sms-rest-client" target="_blank">WEB2SMS Documentation</a> )
