@@ -2,7 +2,7 @@
     "name": "web2sms/sms",
     "description": "Set of library provides easy implementing to send SMS from any applications written in the PHP language via WEB2SMS services",
     "type": "library",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "WEB2SMS SRL",
