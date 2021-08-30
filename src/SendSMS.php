@@ -1,6 +1,5 @@
 <?php
 namespace Web2sms\Sms;
-require_once('Web2sms.php');
 
 class SendSMS extends Web2sms{
     public function __construct(){

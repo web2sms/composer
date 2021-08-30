@@ -186,7 +186,6 @@ abstract class Web2sms {
         curl_close($ch);
         
         $finalResult = json_encode($arr);
-        die(print_r($finalResult));
         return $finalResult;
     }
 

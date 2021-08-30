@@ -1,6 +1,5 @@
 <?php
 namespace Web2sms\Sms;
-require_once('Web2sms.php');
 
 class Validate extends Web2sms{
     const SENDER_LENGTH = 11;               //max sender length
