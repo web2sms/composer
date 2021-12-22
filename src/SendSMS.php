@@ -13,8 +13,8 @@ class SendSMS extends Web2sms{
     public function sendSMS(){
         foreach($this->validMessageList as $smsItem) {
             $response = $this->sendRequest($smsItem);
-            return $response;
         }
+        return $response;
     }
 
     public function verifyRequest() {
