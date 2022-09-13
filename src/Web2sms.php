@@ -73,7 +73,11 @@ abstract class Web2sms {
         curl_setopt($ch, CURLOPT_FAILONERROR, false);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);  
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+        
+        // Fix error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small
+        // See https://github.com/web2sms/composer/issues/3
+        curl_setopt($ch, CURLOPT_SSL_CIPHER_LIST, 'DEFAULT@SECLEVEL=1');
 
         // Return response instead of outputting
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
