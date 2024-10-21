@@ -11,6 +11,7 @@ abstract class Web2sms {
     public $apiKey;
     public $secretKey;
     public $messages;
+    public $validMessageList;
 
 
     public function __construct(){
